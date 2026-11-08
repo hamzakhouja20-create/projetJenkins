@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloner le depot') {
             steps {
-                git url: 'https://github.com/TON-USER/projetJenkins.git', branch: 'main'
+                git url: 'https://github.com/hamzakhouja20-create/projetJenkins.git', branch: 'main'
             }
         }
         stage('Etape 1 : Verification du depot') {
